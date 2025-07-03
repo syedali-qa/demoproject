@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #007BFF;
+    }
+    h1 {
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+    }
+    th {
+      background-color: #eaeaea;
+    }
+    button {
+      padding: 6px 12px;
+      margin: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="modules.html">Modules</a>
+  </nav>
+
+  <h1>User Management Module</h1>
+  <p>This module allows administrators to view and manage users.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>User ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>U001</td>
+        <td>Ali Syed</td>
+        <td>ali@example.com</td>
+        <td>Admin</td>
+        <td>
+          <button>Edit</button>
+          <button>Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>U002</td>
+        <td>Jane Doe</td>
+        <td>jane@example.com</td>
+        <td>User</td>
+        <td>
+          <button>Edit</button>
+          <button>Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
